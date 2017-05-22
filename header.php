@@ -1,5 +1,3 @@
-<?php
-?>
 <html style="height: 3063px;">
 <head>
 <meta charset="UTF-8">
@@ -13,8 +11,8 @@
 		<meta property="og:url" content="https://trendypublishing.com/">
 <link rel="alternate" hreflang="x-default" href="https://trendypublishing.com/">
 <link rel="alternate" hreflang="en-gb" href="https://trendypublishing.com.au/">
-<link rel="alternate" hreflang="es" href="https://es.Trendy Publishing.com/">
-  <link rel="pingback" href="https://Trendy Publishing.com/wp/xmlrpc.php">
+<link rel="alternate" hreflang="es" href="https://es.trendypublishing.com/">
+  <link rel="pingback" href="https://trendypublishing.com/xmlrpc.php">
 <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="keywords" content="Growth Hacking, Social Media, Viral content, digital marketing, media, publishing">

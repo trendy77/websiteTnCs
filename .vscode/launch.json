@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome@trendy.chickenkiller",
+            "url": "http://trendy.chickenkiller.com:8080",
+            "webRoot": "${workspaceRoot}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome",
+            "url": "127.0.0.1:8080",
+            "webRoot": "${workspaceRoot}"
+        },
+    ]
+}

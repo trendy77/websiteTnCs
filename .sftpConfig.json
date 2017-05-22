@@ -1,0 +1,17 @@
+{
+    "host": "host",
+    "port": 22,
+    "username": "username",
+    "password": "password",
+    "protocol": "sftp",
+    "privateKeyPath": null,
+    "passphrase": null,
+    "remotePath": "/home",
+    "uploadOnSave": false,
+    "syncMode": "update",
+    "ignore": [
+        "/**/.vscode",
+        "/**/.git",
+        "/**/.DS_Store"
+    ]
+}

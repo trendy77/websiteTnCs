@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <?php include_once('./header.php'); ?>	
 
 			<!-- START #page-header -->
@@ -6,7 +7,7 @@
 					<div class="container">
 						<div class="row">
 							<section class="col-sm-6">
-								<h1 class="text-upper">Terms and Policy of Use</h1>
+							<h1 class="text-upper">Terms and Policy of Use</h1>
 							</section>
 							
 							<!-- breadcrumbs -->
