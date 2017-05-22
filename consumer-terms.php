@@ -1,4 +1,4 @@
-<?php get_header(); ?>	
+<?php include_once('./header.php'); ?>	
 
 			<!-- START #page-header -->
 			<div id="header-banner">

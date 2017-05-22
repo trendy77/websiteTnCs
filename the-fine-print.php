@@ -1,6 +1,7 @@
-<?php get_header(); ?>	
+<?php include_once('./header.php'); ?>	
 
-			<!-- START #page-header -->
+
+	<!-- START #page-header -->
 			<div id="header-banner">
 				<div class="banner-overlay">
 					<div class="container">
