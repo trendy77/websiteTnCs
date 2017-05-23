@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <?php include_once('./header.php'); ?>
-<body>
 
+<body>
+<?php include_once('./navi.php'); ?>
 
 <h2>Privacy Policy</h2>
 
@@ -83,7 +84,7 @@ Please choose the most appropriate department to best answer your specfic query.
 	
 </main>
 <footer>
-<?php get_footer(); ?>		
+<?php include_once('footer.php'); ?>		
 
     </footer>
   </body>

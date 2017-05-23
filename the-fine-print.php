@@ -1,24 +1,23 @@
 <!DOCTYPE html>
-<?php include_once('./header.php'); ?>	
-
-
+<?php include_once('header.php'); ?>	
 	<!-- START #page-header -->
 			<div id="header-banner">
 				<div class="banner-overlay">
 					<div class="container">
-						<div class="row">
-							<section class="col-sm-6">
-								<h1 class="text-upper">Terms and Policy of Use</h1>
-							</section>
-							
-							<!-- breadcrumbs -->
-							<section class="col-sm-6">
-								<ol class="breadcrumb">
-									<li class="home"><a href="#">Home</a></li>
-									<li><a href="#">Terms of Website Use</a></li>
-									
-								</ol>
-							</section>
+
+        <?php include_once('navi.php'); ?>	
+
+				        <div class="row">
+					<section class="col-sm-6">
+					<h1 class="text-upper">Terms and Policy of Use</h1>
+					</section>
+						<!-- breadcrumbs -->
+						<section class="col-sm-6">
+						<ol class="breadcrumb">
+						<li class="home"><a href="#">Home</a></li>
+						<li><a href="#">Terms of Website Use</a></li>
+						</ol>
+						</section>
 						</div>
 					</div>
 				</div>
@@ -33,9 +32,9 @@
                 <div class="row">
                 <div class="col-md-9">
                     <div class="post-desc">
-<h1>Trendy Publishing / An Organised Business </h1>
+<h1 class="trumpyFont">Trendy Publishing / An Organised Business </h1>
 
-<h2>Terms of Service</h2>
+<h2 class="trumpyFont">Terms of Service</h2>
 
 <h3>Article 1. Definitions</h3>
     OrganizeMyBiz: OrganizeMyBiz is the supplier of the Services provided to the User.  User: the natural person or legal entity that is subject to these Terms & Conditions as a result of the use of the Website.
@@ -83,7 +82,7 @@
     Insofar as no mandatory legislative provision stipulates otherwise, any dispute arising in connection with the use of the Website will be referred to the competent Dutch court.
     Partial invalidity: If any provision from these Terms & Conditions proves to be invalid, the validity of the Terms & Conditions as a whole will not be prejudiced. The parties will adopt a new provision that corresponds as closely as possible by law to the purport of the original Terms & Conditions.
 
-<h2>Disclaimer</h2>
+<h2 class="trumpyFont">Disclaimer</h2>
 Trendy Publishing designed and curated the content on this website with a great deal of care being given to the presentation of accurate information.  Having said that, we cannot guarantee that all information has been appropriately fact checked and confirmed as true.  Should there be any innaccuracies or inconsistancies within the articles, the information presented here serves an informative purpose only. 
 Trendy Publishing cannot accept any liability for damages, in whatever form, stemming directly or indirectly from any act or decision based on the information obtained on or through this website.
 Trendy Publishing cannot guarantee that the information presented on this website will at all times be complete, accurate or up-to-date, nor that use of that information will lead to the results envisioned by the visitor or is suitable for the visitor's purposes. Trendy Publishing reserves the right to alter the information on this site at any time.
@@ -100,10 +99,10 @@ We have adopted DigiRegs, Digital Templating technology that is becoming the ind
                      </div> 
                   </div>
                   <div class="col-md-3">
-                    	<?php $side_ads = get_option('site_side_ads'); if($side_ads != '') { echo stripslashes ($side_ads); } else { echo ''; } ?>
+
                     </div> 
                    </div>   
-            <h2>Legal Contact(s):</h2>
+            <h2 class="trumpyFont">Media, Promotional + Legal Enquiries:</h2>
 
 	<h4>legal@organisemybiz.com</h4>
 	277/ 21050 Warner Ctr Lane,
@@ -150,52 +149,8 @@ We have adopted DigiRegs, Digital Templating technology that is becoming the ind
 					</div>
 				</div>
 				<!-- END #ft-footer -->
-        
-<?php get_footer(); ?>        
+   
+ <?php include_once('footer.php'); ?>
 
-<div class="foot-box aligncenter">
-<img src="trendypublishing.com/timg/TrendyPubFull.gif" alt="Trendy Publishing logo" 
- title="TrendyPublishing.com | Experts at social amplification marketing, segmenation and audience targeting" 
-class="aligncenter size-large wp-image-3109" height="250" width="300"/>
-</div>
-
-<br>
-
-<div class="foot-box foot-box-md col-md-1">
-<img src="https://organisemybiz.com/wp-content/uploads/2017/03/giphy-1.gif" alt="OrganiseMBiz logo" 
- title="OrganiseMBiz.com | 24hr live business news feed with expert advice and tips for SMEs and business owners" 
-class="alignleft size-medium wp-image-3109" height="25" width="30"/>
-</div>
-<div class="foot-box foot-box-md col-md-2">
-<img src="trendypublishing.com/timg/vapedirectory.gif"  alt="VapeDirectory Logo" 
- title="vapeDirectory.co - Vaping News , Videos and Reviews" class="alignleft size-medium wp-image-3109" height="25" width="30"/>
-</div>
-
-<div class="foot-box foot-box-md col-md-2">
-<img src="trendypublishing.com/timg/fakenewslogo.gif"  alt="Fake News Registry" 
- title="FakeNewsRegistry.org"class="aligncenter size-medium wp-image-3109" height="25" width="30"/>
-</div>
-<div class="foot-box foot-box-md col-md-3">
-<img src="trendypublishing.com/timg/globetravellogo.gif"  alt="GlobeTravelSearch" 
- title="GlobeTravelSearch.com" 
-class="aligncenter size-medium wp-image-3109" height="25" width="30"/>
-</div>
-<div class="foot-box foot-box-md col-md-4">
-<img src="https://lh3.googleusercontent.com/-Rrrz-5ne6X0/AAAAAAAAAAI/AAAAAAAAAAw/osFAcb14KNU/s72-p-rw-no/photo.jpg" alt="Trendy Publishing- The T" 
- title="TrendyPublishing.com" class="aligncenter size-medium wp-image-3109" height="25" width="30"/>
-</div>
-
-<div class="foot-box foot-box-md col-md-5">
-<img src="trendypublishing.com/timg/govnewsinfologo.gif" alt="Govnews.info logo" 
- title="Govnews.info - Government Press Releases & Annoucements" 
-class="alignright size-medium wp-image-3109" height="25" width="30"/>
-</div>
-<div class="foot-box foot-box-md col-md-6">
-<img src="trendypublishing.com/timg/ckwwLogo.gif" alt="Custom Kits Worldwide Logo" 
- title="Custom Kits Worldwide - football news, team kit and jersey updates" 
-class="alignright size-medium wp-image-3109" height="25" width="30"/>
-</div>
-
-    </footer>
   </body>
 </html>

@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<?php include_once('./header.php'); ?>	
+<?php include_once('header.php'); ?>	
 
 			<!-- START #page-header -->
 			<div id="header-banner">
 				<div class="banner-overlay">
 					<div class="container">
+	 <?php include_once('navi.php'); ?>
+
 						<div class="row">
 							<section class="col-sm-6">
 							<h1 class="text-upper">Terms and Policy of Use</h1>
@@ -104,6 +106,8 @@
 17.1. If Trendy Publishing is sold to another company, or sells organisemybiz.com or customkitsworldwide.com (and/or another digital brand) to a 3rd party, we reserve the right (without giving notice or seeking consent) to transfer any personal information and any other information we have collected about you to that company.
 
 
-    </footer>
-  </body>
+
+
+ <?php include_once('footer.php'); ?>
+
 </html>
