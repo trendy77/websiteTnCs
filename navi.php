@@ -1,6 +1,8 @@
+<?php  ?>
 <!-- GLOBAL NAV-BAR SETUP -->
         <!--Dropdown Structure GOES BEFORE THE ACTUAL NAV -->
-            <ul id="dropdown1" class="dropdown-content">
+       
+	   <ul id="dropdown1" class="dropdown-content">
             <li><a href="services/newswire.html">NewsWire</a></li>
             <li><a href="services/contentfeed.html">ContentFeed</a></li>
                 <li class="divider"></li>
@@ -20,10 +22,12 @@
                         </ul>
 
                           <ul id="dropdown3" class="dropdown-content">
-                    <li><a href="terms/the-fine-print.html">Conditions of Use</a></li>
-                    <li><a href="terms/privacy.html">Privacy Policy</a></li>
-                     <li><a href="terms/consumer-terms.html">Consumer Terms</a></li>
- <li><a href="terms/website-terms.html">Website Terms</a></li>
+                    <li><a href="the-fine-print.html">Conditions of Use</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                     <li><a href="consumer-terms.html">Consumer Terms</a></li>
+ <li><a href="website-terms.html">Website Terms</a></li>
+ </ul>
+ 
  <nav>
     <div class="nav-wrapper">
       <a href="" class="brand-logo">Trendy Publishing</a>
@@ -35,20 +39,7 @@
                 <!-- Dropdown Trigger 1+2  -->
         <li><a class="dropdown-button" href="services.html" data-activates="dropdown1">Services<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a class="dropdown-button" href="platforms.html" data-activates="dropdown2">Platforms<i class="material-icons right">arrow_drop_down</i></a></li>
-  <li><a class="dropdown-button" href="/terms/the-fine-print.html" data-activates="dropdown3">Terms/Policies<i class="material-icons right">arrow_drop_down</i></a></li>
+  <li><a class="dropdown-button" href="the-fine-print.html" data-activates="dropdown3">Terms/Policies<i class="material-icons right">arrow_drop_down</i></a></li>
    <li><a href="contact.html">Contact Us</a></li>
-        
     </ul>
-    </div>
-  </nav>
-
-
-
-
-
-  /////// To activate the dropdown menu, ** AND collapsible MENU, insert these lines of code into your JavaScript file, 
-            ////////    within the                $( document ).ready(function)                 block
-
-$(".dropdown-button").dropdown();
-$(".button-collapse").sideNav();
-        
+</nav>

@@ -1,11 +1,12 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome@trendy.chickenkiller",
-            "url": "192.168.0.3:80",
+            "url": "192.168.0.3/terms/index.php",
             "webRoot": "${workspaceRoot}"
         },
         {
