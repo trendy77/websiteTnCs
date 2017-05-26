@@ -10,11 +10,12 @@ main {
 }
 
 @font-face {
-   font-family: tinyHands;
-    src: url(fonts/tinyHands.woff) format:(woff);
+    font-family: tinyHands;
+    src: url(fonts/tinyHands.woff) format: (woff);
 }
-p.tinyHands{
-	font-family: tinyHands;
+
+p.tinyHands {
+    font-family: tinyHands;
 }
 
 .container {
@@ -27,7 +28,7 @@ p.tinyHands{
 
 #top-header {
     background: #59aeff;
-	font-family: tinyHands;
+    font-family: tinyHands;
 }
 
 .top-row {
@@ -48,13 +49,13 @@ p.tinyHands{
 
 .contact-phone {
     padding-left: 22px;
-    background: url(https://organisemybiz.com/wp-content/themes/proTrend/https://organisemybiz.com/wp-content/themes/proTrend/phone.png) 0 center no-repeat;
+    background: url(https://organisemybiz.com/wp-content/themes/proTrend/phone.png) 0 center no-repeat;
 }
 
 .header-social {
     float: left;
     padding-left: 15px;
-	font-family: tinyHands;
+    font-family: tinyHands;
     border-left: 1px solid #292c2f;
 }
 
@@ -67,9 +68,11 @@ p.tinyHands{
     float: left;
     margin: 0 5px;
 }
+
 .header {
-	font-family: tinyHands;
+    font-family: tinyHands;
 }
+
 .social-media li a {
     float: left;
     height: 14px;
@@ -114,7 +117,7 @@ p.tinyHands{
 }
 
 .top-link {
-	font-family: tinyHands;
+    font-family: tinyHands;
     float: right;
     line-height: 14px;
     padding-right: 15px;
@@ -142,7 +145,11 @@ p.tinyHands{
     background: url(https://organisemybiz.com/wp-content/themes/proTrend/search.png) 0 center no-repeat;
     border: none;
 }
+
+
 /* Custom Stylesheet */
+
+
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
@@ -152,53 +159,57 @@ p.tinyHands{
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+    color: #444;
 }
+
 h5 {
-	font-family: tinyHands;
+    font-family: tinyHands;
 }
+
 p {
-  line-height: 2rem;
-  font-family: roboto;
+    line-height: 2rem;
+    font-family: roboto;
 }
 
 .button-collapse {
-  color: #26a69a;
+    color: #26a69a;
 }
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .section {
+
+.parallax-container .section {
     width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
 }
 
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
 }
 
 .icon-block {
-  padding: 0 15px;
+    padding: 0 15px;
 }
+
 .icon-block .material-icons {
-  font-size: inherit;
+    font-size: inherit;
 }
 
 footer.page-footer {
-  margin: 0;
+    margin: 0;
 }

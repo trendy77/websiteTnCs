@@ -1,10 +1,13 @@
-(function($){
-  $(function(){
+(function($) {
+    $(function() {
 
-    $('.button-collapse').sideNav();
-    $('.parallax').parallax();
-$(".dropdown-button").dropdown();
-$(".button-collapse").sideNav();
+        $('.button-collapse').sideNav();
+        $('.parallax').parallax();
+        $(".dropdown-button").dropdown();
+        $(document).ready(function() {
+            $('.collapsible').collapsible();
+        });
 
-  }); // end of document ready
+
+    }); // end of document ready
 })(jQuery); // end of jQuery name space
