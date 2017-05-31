@@ -7,7 +7,7 @@
     "privateKeyPath": "C:\\Users\\trend\\OneDrive\\Documents\\puttykeys\\id_rsatttt.ppk",
     "passphrase": "Joker999",
     "remotePath": "/home/organ151/Scripts/terms",
-    "uploadOnSave": false,
+    "uploadOnSave": true,
     "syncMode": "full",
     "ignore": [
         "/**/.vscode",
